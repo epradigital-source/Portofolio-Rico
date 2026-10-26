@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Rico, pelajar dan calon Web Developer.">
+  <title>Rico | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+<!-- Background dekoratif -->
+<div class="ambient-background" aria-hidden="true">
+  <div class="ambient-grid"></div>
+  <div class="ambient-glow ambient-glow-one"></div>
+  <div class="ambient-glow ambient-glow-two"></div>
+  <div class="ambient-particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+  
+<div class="loader" id="loader">
+  <div class="loader-content">
+    <div class="loader-logo">RICO<span>.</span></div>
+    <div class="loader-bar"><span></span></div>
+    <p>INITIALIZING PORTFOLIO...</p>
+  </div>
+</div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">RICO<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link nav-cta">Contact ↗</a>
+    </nav>
+
+    
+<div class="social-links">
+  <a href="https://instagram.com/@rico_epra"
+     target="_blank" rel="noopener noreferrer">
+    Instagram ↗
+  </a>
+
+  <a href="https://www.tiktok.com/@elepr4"
+     target="_blank" rel="noopener noreferrer">
+    TikTok ↗
+  </a>
+
+  <a href="https://github.com/epradigital-source/Portofolio.git"
+     target="_blank" rel="noopener noreferrer">
+    GitHub ↗
+  </a>
+</div>
+  </header>
+
+  <main>
+   
+<section class="hero section" id="home">
+  <div class="hero-content glass-panel">
+    <p class="eyebrow">
+      <span class="status-dot"></span>
+      PELAJAR • ASPIRING DEVELOPER
+    </p>
+
+    <h1>
+      Building my<br>
+      own <span>digital world.</span>
+    </h1>
+
+    <p class="hero-role">
+      Saya seorang <span id="typing-text"></span>
+      <span class="typing-cursor">|</span>
+    </p>
+
+    <p class="hero-desc">
+      Halo, Saya Rico. Pelajar yang sedang belajar coding,
+      membangun project digital, dan mengembangkan skill
+      untuk masa depan.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">Lihat Project ↗</a>
+      <a href="#about" class="btn secondary">Kenal Saya</a>
+    </div>
+
+    <div class="hero-meta">
+      <span>📍 Indonesia</span>
+      <span>💻 Learning by building</span>
+    </div>
+  </div>
+</section>
+
+          </div>
+          <div class="profile-line"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Halo, saya <span>Rico</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-label">Siapa Saya?</div>
+        <div>
+          <p class="about-text">
+           Halo, saya Rico, seorang pelajar yang memiliki ketertarikan pada teknologi dan pengembangan website. Saat ini, saya sedang mempelajari HTML, CSS, JavaScript, serta berbagai teknologi lainnya untuk mengembangkan kemampuan di bidang programming.
+           Saya senang mencoba hal baru, mengeksplorasi ide kreatif, dan mengubahnya menjadi proyek digital yang bermanfaat. Salah satu proyek yang sedang saya kembangkan adalah Clip Here, sebuah proyek web yang menjadi bagian dari perjalanan saya dalam belajar dan membangun produk digital.
+           Bagi saya, setiap proyek merupakan kesempatan untuk belajar, memperbaiki kesalahan, dan meningkatkan kemampuan. Saya ingin terus berkembang menjadi web developer yang mampu menciptakan website modern, fungsional, dan bermanfaat bagi banyak orang.
+          </p>
+          <p class="muted">
+            Saya percaya skill berkembang lewat proses belajar,
+            mencoba, menemukan bug, lalu memperbaikinya.
+          </p>
+          <div class="chips">
+            <span>Curious</span><span>Creative</span>
+            <span>Self Learner</span><span>Problem Solver</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<div class="bio-details">
+  <div><span>Nama</span><strong>Rico</strong></div>
+  <div><span>Status</span><strong>Pelajar SMK</strong></div>
+  <div><span>Fokus</span><strong>Web Development</strong></div>
+  <div><span>Lokasi</span><strong>Indonesia</strong></div>
+</div>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools yang sedang <span>saya pelajari.</span></h2>
+        <p class="muted">Skill berkembang seiring latihan dan project.</p>
+      </div>
+      <div class="skills-grid">
+       
+<article class="skill-card">
+  <span class="skill-icon orange">5</span>
+  <h3>HTML</h3>
+  <p>Membangun struktur halaman website.</p>
+
+  <!-- TAMBAHKAN PROGRESS BAR DI SINI -->
+  <div class="skill-progress" data-progress="35">
+    <div class="progress-info">
+      <span>Progress belajar</span>
+      <span class="progress-value">0%</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+
+  <span class="skill-level">SEDANG DIPELAJARI</span>
+</article>
+
+        <article class="skill-card">
+          <span class="skill-icon blue">✳</span>
+          <h3>CSS</h3>
+          <p>Mengatur layout, warna, dan tampilan.</p>
+          <span class="skill-level">SEDANG DIPELAJARI</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon yellow">JS</span>
+          <h3>JavaScript</h3>
+          <p>Membuat website interaktif.</p>
+          <span class="skill-level">TARGET BELAJAR</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon purple">⌘</span>
+          <h3>Problem Solving</h3>
+          <p>Melatih logika dan memperbaiki bug.</p>
+          <span class="skill-level">TERUS BERKEMBANG</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Project <span>pilihan.</span></h2>
+        <p class="muted">Ide yang sedang saya bangun menjadi kenyataan.</p>
+      </div>
+      <article class="project-card">
+        <div class="project-preview">
+          <div class="preview-top"><span></span><span>PROJECT 01</span></div>
+          <div class="preview-logo">C<span>L</span></div>
+          <h3>ClipHere</h3>
+          <p>LONG VIDEO → SHORT CONTENT</p>
+          <div class="preview-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="project-info">
+          <span class="project-number">PROJECT 01</span>
+          <h3>ClipHere</h3>
+          <p>
+           Web app untuk membantu kreator mengubah video panjang
+           menjadi konten pendek. Dibangun sebagai project untuk
+           mengembangkan skill web development gw.
+          </p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://epradigital-source/clipperlab" target="_blank" rel="noopener noreferrer">Kunjungi Project ↗</a>
+        </div>
+      </article>
+    </section>
+    
+<!-- ===== CONTACT SECTION ===== -->
+<section class="section" id="contact">
+  <div class="section-heading">
+    <p class="eyebrow">04 / CONTACT</p>
+    <h2>Mari terhubung <span>bersama saya.</span></h2>
+    <p class="muted">
+      Punya ide, ingin berdiskusi, atau sekadar menyapa?
+      Saya terbuka untuk terhubung.
+    </p>
+  </div>
+
+  <div class="contact-layout">
+    <div class="contact-panel">
+      <h3>Hubungi saya</h3>
+      <p>
+        Saya terus belajar dan terbuka untuk berdiskusi
+        tentang teknologi, coding, dan project digital.
+      </p>
+
+      <a
+        class="contact-email-button"
+        href="mailto:epradigital@gmail.com"
+      >
+        Kirim Email ↗
+      </a>
+    </div>
+
+    <div class="contact-panel">
+      <h3>Temukan saya</h3>
+      <p>Terhubung melalui platform berikut.</p>
+
+      <div class="contact-list">
+        <a
+          class="contact-item"
+          href="https://github.com/epradigital-source/Portofolio.git"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="contact-icon">⌘</span>
+          <span>
+            <strong>GitHub</strong>
+            <small>Lihat project dan kode saya</small>
+          </span>
+        </a>
+
+        <a
+          class="contact-item"
+          href="https://instagram.com/@rico_epra"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="contact-icon">◎</span>
+          <span>
+            <strong>Instagram</strong>
+            <small>Terhubung dengan saya</small>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">04 / GET IN TOUCH</p>
+      <h2>Let's build something<br><span>awesome.</span></h2>
+      <p class="muted">
+        Terbuka untuk kenalan, berbagi ide, dan kolaborasi project.
+      </p>
+      <a href="mailto:epradigital@gmail.com" class="btn primary" id="emailButton">
+        Hubungi Saya ↗
+      </a>
+      <p class="contact-note">epradigital@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">RICO<span>.</span></a>
+    <p>Designed & built while learning. © <span id="year"></span> Rico.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+</body>
+</html>
